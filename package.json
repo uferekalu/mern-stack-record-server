@@ -11,8 +11,7 @@
     "client-install": "npm install --prefix client",
     "start": "node server/index.js",
     "server": "nodemon server/index.js",
-    "client": "npm start --prefix client",
-    "heroku-postbuild": "npm run build"
+    "client": "npm start --prefix client"
   },
   "author": "",
   "license": "ISC",
